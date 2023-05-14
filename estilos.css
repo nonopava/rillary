@@ -9,45 +9,52 @@ audio {
 }
 
 
- /*div {
-    width: 80%;
+ div {
+    width: 100%;
     margin: 0 auto;
-    text-align: center;
-}*/
+}
 
 img {
     width: 50%;
     height: 500px;
+    text-align: none;
+    float: right;
    
 }
 
 #img {
      text-align: center;
-     width: 90%;
-     margin: 0 auto;
 }
 
 h1 {
+    margin-right: 13%;
     color: #FFF;
     font-style: oblique;
     font-weight: bold;
     text-align: center
     
 }
+#mensagem {
+     margin-right: 0;
+     color: #FFF;
+     font-style: oblique;
+     font-weight: bold;
+     text-align: center;
+     float: left;
+     width: 40%;
+
+
+}
 
 @media only screen and (min-width: 320px) and (max-width: 1000px) {
-    div {
-    width: 100;
-    margin: 0;
-}
+    /* div {
+    width: 80%;
+    margin: 0 auto;
+}*/
  img {
       width: 100%;
       height: 100%; 
 }
-/*#img {
-     text-align: center;
-     width: 0;
-     margin: 0; */
      h1 {
           font-size: 150%;   
           margin-right: 0;
